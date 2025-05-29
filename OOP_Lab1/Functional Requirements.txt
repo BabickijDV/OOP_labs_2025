@@ -1,0 +1,26 @@
+1) After building an app, app has to show a menu with functions(Draw a figure, Move drawn figure, 
+Delete drawn figure, Save combination of figures in file, Load from file saved data or empty file,Fill another background
+of drawn figures,Undo action, Redo action )
+2)Draw a Figure - this functions gives user an oppurtunity to choose one of the five figures(circle,right triangle,triangle with 90 angle,
+rectangle,ellipse). To choose a figure user hat to enter a digit in range [1..5] circle - 1, right triangle - 2, triangle with 90 angle - 3,
+rectangle - 4, ellipse - 5.
+After choosing figure for every choise program gives special parameters for each figure:
+circle - radius
+right triangle - side
+triangle with 90 andle - two sides (2 cathetus)
+rectangle - two sides
+ellipse - two radius
+After chosing special parametr - provided figure will be drawn and put on first plan of worspace
+3) Move drawn figure - this option is available ONLY when there any figures on board.
+After chosing one of drawn figures user gets in special movement mode (each side(up,down,left,right) has special number [1..4]
+to go out from special mode enter -1)
+4) Delete drawn figure - this function is available ONLY when there any figures on board.
+After chosing one of drawn figures (they're described in range [0..amount of figures-1]),to choose a figure enter a digit from provided range.
+Afeter choise figures disappears
+5) Save combination of figures in file - this function saves all figures in file storage.txt
+6) Load from file - this function load data from file. If file is empty, workspace will clear
+7) Fill another background of drawn figures - after choosing one of drawn figures. Program gives 5 different background symbols.After entering 
+a digit in range [1..5] background will be changed and figure will goes on first plan.
+8) Undo action - this function deletes last action. If there aren't any actions program will give empty workspace,User can only use 5 uses of this function
+in a row!!.
+8) Redo action - this function retrieves last deleted function if it were any deleted. Only five uses in a row.If there aren't any actions program will give empty workspace.
